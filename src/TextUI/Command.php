@@ -517,7 +517,7 @@ class Command
             return;
         }
 
-        #print Version::getVersionString() . PHP_EOL . PHP_EOL;
+        print Version::getVersionString() . PHP_EOL . PHP_EOL;
 
         $this->versionStringPrinted = true;
     }

@@ -301,9 +301,9 @@ final class TestRunner extends BaseTestRunner
             $this->printer->setShowProgressAnimation(!$arguments['noInteraction']);
         }
 
-        $this->printer->write(
-            Version::getVersionString() . "\n"
-        );
+//        $this->printer->write(
+//            Version::getVersionString() . "\n"
+//        );
 
         self::$versionStringPrinted = true;
 
